@@ -1,0 +1,23 @@
+.containt {
+    width: 95%;
+    margin-top: 20px !important;
+
+    .titleLabel {
+        text-align: left;
+        margin-left: 20px;
+        font-weight: 700;
+        color: #e82a15;
+    }
+
+    .imgView {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .detailViewLeft {
+        text-align: left;
+    }
+
+    .detailViewRight {
+        text-align: right;
+    }
+}
