@@ -5,7 +5,7 @@ import SearchBar from './../../shared/searchBar/searchBar.js';
 
 const Home = () => {
     const [searchValue, setSearchValue] = useState("");
-    const [foodList, setUsers] = useState([]);
+    const [foodList, setFoodList] = useState([]);
     const fetchFoodList = () => {
         // https://api.nal.usda.gov/fdc/v1/foods/list?api_key=DEMO_KEY
         fetch("https://api.nal.usda.gov/fdc/v1/foods/list?api_key=DEMO_KEY")
@@ -13,8 +13,8 @@ const Home = () => {
                 return response.json()
             })
             .then(data => {
-                if (data.FoundationFoods.length > 0) {
-                    setUsers(data.FoundationFoods)
+                if (data.length > 0) {
+                    setFoodList(data)
                 }
 
             })
