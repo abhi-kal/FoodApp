@@ -1,3 +1,14 @@
+
+Deskstock View
+<img width="936" alt="image" src="https://github.com/abhi-kal/FoodApp/assets/108448556/45bb92b1-932b-4f5e-9c5a-a00e508c56ae">
+
+<img width="926" alt="image" src="https://github.com/abhi-kal/FoodApp/assets/108448556/a5d702ad-95f0-40da-99bb-53e4aaef5326">
+
+Mobile View
+<img width="182" alt="image" src="https://github.com/abhi-kal/FoodApp/assets/108448556/a35211d1-2bb5-40d3-8887-00fa350e9705">
+<img width="174" alt="image" src="https://github.com/abhi-kal/FoodApp/assets/108448556/c75e0f5d-b9dd-4ad5-91af-e5658c847d2a">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
